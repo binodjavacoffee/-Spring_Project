@@ -9,11 +9,13 @@
 <%@ include file ="header.jsp" %>
 </head>
 <body>
-<div><a href="user">Add User</a></div>
-<div>User List</div>
+<div>
+<div class="col-md-8" >User List</div>
+<div><a href="user" class="btn btn-primary">Add User</a></div>
+</div>
 	<c:if test="${!empty users }">
 	<div>
-		<table>
+		<table class="table table-striped">
 			<thead>
 			
 			<tr>

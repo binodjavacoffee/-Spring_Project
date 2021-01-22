@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:cyan
+	}
+	/* <%--this is calling by id, give this name to div--%>  */
+
+#form-design  
+{
+/* <%--By id--%> */
+border:1px solid black;
+ width:500px; 
+ height:500px;
+ margin:10px 0px 0px 200px /* <%--this means( Top Right Bottom Left --%> */
+ }
+/* <%--once u do this effect will not shows , for that we have call by id or class or tag --%>
+<%--There is css Box -Margin Border Padding Content --%>
+<%--By tag--%> */
+input{
+padding:10px;
+/* <%--this is for content --%> */
+}
+
+
+label{
+font-family: serif;
+font-size: large;;
+font-weight: bolder;
+/* <%--this is for lable --%> */
+}
+/* <%--By class--%> */
+
+.btn{
+background-color: gray;
+width:200px;
+height:100px;
+/* <%--this is for submit button--%> */
+}

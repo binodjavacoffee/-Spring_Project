@@ -37,5 +37,7 @@
 	
 	<bean id="userRepository" class="com.binodsh.um1.repository.UserRepositoryImpl"/>
 	<bean id="userService" class="com.binodsh.um1.service.UserServiceImpl"/>
-	
+
+
+	<mvc:resources location="/resources/" mapping="/resources/**"/>
 </beans>
